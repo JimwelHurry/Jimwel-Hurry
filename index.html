@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimwel Hurry - Web Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.jpg" type="image/png">
+    
+</head>
+<body>
+    <!-- macOS-style buttons -->
+
+    
+    <div class="mac-buttons">
+        <span class="mac-btn red"></span>
+        <span class="mac-btn yellow"></span>
+        <span class="mac-btn green"></span>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" class="nav-link" data-target="home">Home</a></li>
+            <li><a href="#" class="nav-link" data-target="about">About</a></li>
+            <li><a href="#" class="nav-link" data-target="projects">Projects</a></li>
+            <li><a href="#" class="nav-link" data-target="skills">Skills</a></li>
+            <li><a href="#" class="nav-link" data-target="academic">Education</a></li>
+            <li><a href="#" class="nav-link" data-target="contact">Social</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sections -->
+    <section id="home" class="section" style="height: 100vh; display: flex; justify-content: center; align-items: center; position: relative; background: #1e1e1e;">
+        <!-- Terminal Content -->
+        <div class="terminal" style="max-width: 800px; height: 400px; margin: auto; padding: 40px; background: rgba(0, 0, 0, 0.85); border-radius: 15px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); color: #fff; font-family: 'Courier New', Courier, monospace; z-index: 2; animation: terminalEntrance 2s ease-in-out; border: 3px solid transparent; background-clip: padding-box; position: relative;">
+            <div class="line"><span class="prompt">>_</span> <strong>Hello, I'm Jimwel Hurry</strong></div>
+            <div class="line"><span class="prompt">>_</span> A passionate <span class="highlight">Full-Stack Developer</span>.</div>
+            <div class="line"><span class="prompt">>_</span> <a href="#projects" class="link">View My Projects</a></div>
+        </div>
+    
+        <!-- Subtle background animation -->
+        <div class="code-background" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
+            <pre class="console-log" style="color: rgba(0, 255, 0, 0.6); font-size: 22px; white-space: pre-wrap; word-wrap: break-word; max-width: 100%; animation: codeTyping 3s steps(40) infinite;">
+                console.log('Chasing my Full-Stack Developer dreams...');
+                let developer = 'Jimwel Hurry';
+                let passion = 'Full-Stack Development';
+                console.log(`Passionate about ${passion} and coding.`);
+                setTimeout(() => { console.log('Click to view my projects!'); }, 2000);
+            </pre>
+        </div>
+    </section>
+    
+   
+    
+    
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-me">
+            <p>Hello, I'm <strong>Jimwel</strong>! Aspiring Full Stack Developer</p>
+            <p>I’m an aspiring Full Stack Developer with a strong interest in building dynamic web applications. I’ve honed my skills in front-end development using HTML, CSS, and JavaScript, and I’m passionate about creating seamless, interactive user interfaces. On the back-end, I have experience working with SQL databases and server-side technologies like Node.js. I’m constantly learning and exploring new tools and frameworks to grow my skill set. My goal is to continue building projects that challenge me while contributing to meaningful development teams.</p>
+    
+            <h3><i class="fas fa-cogs"></i> Current Focus</h3>
+            <ul>
+                <li><i class="fas fa-laptop-code"></i> <strong>Web Development</strong>: Creating responsive and engaging websites.</li>
+                <li><i class="fas fa-code"></i> <strong>Programming</strong>: Passionate about coding and problem-solving.</li>
+                <li><i class="fas fa-palette"></i> <strong>UI/UX Design</strong>: Designing intuitive user experiences.</li>
+                <li><i class="fas fa-users"></i> <strong>Collaboration</strong>: Emphasizing teamwork to achieve great results.</li>
+            </ul>
+    
+            <h3><i class="fas fa-bullseye"></i> My Mission</h3>
+            <p>My mission is to empower businesses and individuals through technology, transforming innovative ideas into reality to create positive impacts in people's lives.</p>
+    
+            <h3><i class="fas fa-smile"></i> Fun Facts</h3>
+            <ul>
+                <li><i class="fas fa-dumbbell"></i> I enjoy going to the gym to stay fit and healthy.</li>
+                <li><i class="fas fa-utensils"></i> Cooking is one of my favorite hobbies; I love trying new recipes.</li>
+                <li><i class="fas fa-briefcase"></i> I’m passionate about entrepreneurship and always looking for new business opportunities.</li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <img src="img/project1.png" alt="Don Bosco Information">
+                <h3>Don Bosco Information</h3>
+                <p>A website showcasing information about Don Bosco College, including academic programs, events, and student services.</p>
+            </div>
+            <div class="project">
+                <img src="img/project2.png" alt="Bake Shop Website">
+                <h3>Bake Shop Website</h3>
+                <p>An e-commerce website for a local bake shop, featuring product listings, online ordering, and delivery services.</p>
+            </div>
+            <div class="project">
+                <img src="img/project3.png" alt="Honda Click160">
+                <h3>Honda Click160</h3>
+                <p>A product landing page for the Honda Click160 motorcycle, detailing its features, specifications, and pricing.</p>
+            </div>
+            <div class="project">
+                <img src="img/project4.png" alt="RFID Attendance System">
+                <h3>RFID Attendance System</h3>
+                <p>An RFID-based system for tracking attendance at Don Bosco College, improving efficiency and accuracy in monitoring student presence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <div class="skill">
+                <h3><i class="fab fa-html5 icon-effect"></i> HTML</h3>
+                <p>Experienced in creating structured web pages with HTML5.</p>
+            </div>
+            <div class="skill">
+                <h3><i class="fab fa-css3-alt icon-effect"></i> CSS</h3>
+                <p>Proficient in styling web pages with CSS3, including responsive design and animations.</p>
+            </div>
+            <div class="skill">
+                <h3><i class="fab fa-js-square icon-effect"></i> JavaScript</h3>
+                <p>Skilled in JavaScript for creating dynamic and interactive web applications.</p>
+            </div>
+            <div class="skill">
+                <h3><i class="fab fa-php icon-effect"></i> PHP</h3>
+                <p>Experienced in server-side development using PHP for dynamic web content.</p>
+            </div>
+            <div class="skill">
+                <h3><i class="fab fa-react icon-effect"></i> React.js</h3>
+                <p>Currently learning React.js for building modern, interactive web interfaces.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Experience Section -->
+    <section id="academic" class="section">
+        <h2>Education</h2>
+        <div class="academic-experience">
+            <div class="academic-item">
+                <h3>Don Bosco College Canlubang</h3>
+                <p><strong>Bachelor's Degree in Information Technology</strong> (Expected Graduation: 2025)</p>
+                <p>My academic journey in programming spans several years, starting with foundational programming languages and evolving into advanced topics such as mobile development and web systems.</p>
+            </div>
+            <div class="academic-item">
+                <h3>Asian Computer College</h3>
+                <p><strong>Kindergarten to Grade 10</strong></p>
+                <p>At Asian Computer College, I began my academic journey, laying the foundation for my interest in technology.</p>
+            </div>
+            <div class="academic-item">
+                <h3>University of Perpetual Help Calamba Campus</h3>
+                <p><strong>Grade 11 to 12, ICT Course</strong></p>
+                <p>During my time at Perpetual, I pursued an ICT-focused curriculum, which enhanced my understanding of technology and further developed my skills in Information Technology.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Social</h2>
+        <p><i class="fas fa-envelope"></i> Email: <span class="highlight">jimboyhurry072702@gmail.com</span></p>
+        <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/JimwelHurry" class="link" target="_blank">github.com/JimwelHurry</a></p>
+        <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/jimwel-hurry-84bb11302/" class="link" target="_blank">linkedin.com/in/jimwel-hurry-84bb11302</a></p>
+        <p><i class="fab fa-facebook"></i> Facebook: <a href="https://www.facebook.com/JimwelManguiat/" class="link" target="_blank">facebook.com/JimwelManguiat</a></p>
+    </section>
+    
+    
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2024 Jimwel M. Manguiat. All rights reserved.</p>
+
+       
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
